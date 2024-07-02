@@ -1,0 +1,7 @@
+# Driectories
+.vs/
+Bin/
+BinInt/
+
+# Files
+*.user
