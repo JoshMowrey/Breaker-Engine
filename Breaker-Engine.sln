@@ -5,32 +5,22 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Breaker", "Breaker-Engine\Breaker-Engine.vcxproj", "{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sand", "Sand\Sand.vcxproj", "{B5A4570E-F4DF-4762-A216-033D33CFC5EB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{B5A4570E-F4DF-4762-A216-033D33CFC5EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Debug|x64.ActiveCfg = Debug|x64
-		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Debug|x64.Build.0 = Debug|x64
-		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Debug|x86.ActiveCfg = Debug|x64
-		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Debug|x86.Build.0 = Debug|x64
+		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Debug|x64.ActiveCfg = Release|x64
+		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Debug|x64.Build.0 = Release|x64
 		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Release|x64.ActiveCfg = Release|x64
 		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Release|x64.Build.0 = Release|x64
-		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Release|x86.ActiveCfg = Release|x64
-		{3A4445A4-5D9C-4B1B-8F2F-1BFA8CAA498C}.Release|x86.Build.0 = Release|x64
-		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Debug|x64.ActiveCfg = Debug|x64
-		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Debug|x64.Build.0 = Debug|x64
-		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Debug|x86.ActiveCfg = Debug|Win32
-		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Debug|x86.Build.0 = Debug|Win32
+		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Debug|x64.ActiveCfg = Release|x64
+		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Debug|x64.Build.0 = Release|x64
 		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Release|x64.ActiveCfg = Release|x64
 		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Release|x64.Build.0 = Release|x64
-		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Release|x86.ActiveCfg = Release|Win32
-		{B5A4570E-F4DF-4762-A216-033D33CFC5EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
