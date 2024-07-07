@@ -13,28 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Externals">
-      <UniqueIdentifier>{f9caeef8-7908-4fc3-a946-f25aac53e060}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Breaker.h">
-      <Filter>Header Files\Externals</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Breaker\BreakerApp.h">
-      <Filter>Header Files\Externals</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Breaker\Core.h">
-      <Filter>Header Files\Externals</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Breaker\EntryPoint.h">
-      <Filter>Header Files\Externals</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Breaker\Std.h">
-      <Filter>Header Files\Externals</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Breaker\Log.h">
+    <ClInclude Include="src\Std.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SandboxApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

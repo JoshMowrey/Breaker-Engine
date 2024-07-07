@@ -10,7 +10,7 @@ namespace Breaker {
 
 	class BREAKER_API Application {
 	public:
-		Application() { }
+		Application(){ }
 		virtual ~Application() { }
 		void Run() {
 			while (true);

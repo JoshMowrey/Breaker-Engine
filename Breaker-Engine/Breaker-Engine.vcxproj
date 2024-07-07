@@ -11,14 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\BreakerExtr\Breaker.h" />
+    <ClInclude Include="src\Breaker.h" />
     <ClInclude Include="src\Breaker\BreakerApp.h" />
     <ClInclude Include="src\Breaker\Core.h" />
     <ClInclude Include="src\Breaker\EntryPoint.h" />
+    <ClInclude Include="src\Breaker\Log.h" />
     <ClInclude Include="src\Breaker\Std.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\Breaker\BreakerApp.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -68,6 +66,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BR_BUILD_DLL;BR_PLATFORM_WINDOWS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Breaker-Engine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +81,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BR_BUILD_DLL;BR_PLATFORM_WINDOWS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Breaker-Engine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

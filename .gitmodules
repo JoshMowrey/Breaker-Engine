@@ -1,0 +1,3 @@
+[submodule "Breaker-Engine/vendor/spdlog"]
+	path = Breaker-Engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
