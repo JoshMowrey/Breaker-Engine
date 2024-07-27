@@ -1,7 +1,10 @@
 #pragma once
 
 #include "Core.h"
-#include "Std.h"
+#include "brpch.h"
+#include "Events/Event.h"
+#include "Events/ApplicationEvents.h"
+#include "Log.h"
 namespace Breaker {
 	void Print() {
 
@@ -13,6 +16,8 @@ namespace Breaker {
 		Application(){ }
 		virtual ~Application() { }
 		void Run() {
+			WindowResizeEvent e(1280, 720);
+			BR_TRACE(e);
 			while (true);
 		}
 

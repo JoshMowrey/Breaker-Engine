@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Breaker">
+      <UniqueIdentifier>{210F8AED-8DEE-0889-9606-945F02656FEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Breaker\Events">
+      <UniqueIdentifier>{E54BB529-D119-A92F-BAAD-1956A61A8594}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Breaker.h" />
+    <ClInclude Include="src\Breaker\BreakerApp.h">
+      <Filter>Breaker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Breaker\Core.h">
+      <Filter>Breaker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Breaker\EntryPoint.h">
+      <Filter>Breaker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Breaker\Events\ApplicationEvents.h">
+      <Filter>Breaker\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Breaker\Events\Event.h">
+      <Filter>Breaker\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Breaker\Events\KeyEvents.h">
+      <Filter>Breaker\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Breaker\Events\MouseEvents.h">
+      <Filter>Breaker\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Breaker\Log.h">
+      <Filter>Breaker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\brpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Breaker\I_LOVE_PREPROCESSOR_COMMANDS.cpp">
+      <Filter>Breaker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\brpch.cpp" />
+  </ItemGroup>
+</Project>

@@ -18,6 +18,9 @@
     <ClInclude Include="src\Breaker\Log.h" />
     <ClInclude Include="src\Breaker\Std.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Breaker\Test.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

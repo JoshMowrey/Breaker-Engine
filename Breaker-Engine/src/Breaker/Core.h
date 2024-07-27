@@ -9,3 +9,5 @@
 #else 
 	#error Windows Only
 #endif
+
+#define BIT(x) (1 << x)

@@ -4,7 +4,6 @@
 
 //includes from the breaker source code libraries via the src directory above current file
 #include "Breaker\BreakerApp.h"
-#include "Breaker\Core.h"
 #include "Breaker\Log.h"
 
 //************ENTRY POINT************
