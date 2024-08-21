@@ -4,7 +4,7 @@
 
 
 /*
-	TO DO: FIX DISPATCH IN BUFFER CLASS TO DISPATCH WHOLE BUFFER (CURRENTLY ONLY DISPATCHES FIRST EVENT)
+	TO DO: FIX DISPATCH IN BUFFER CLASS TO DISPATCH WHOLE BUFFER (CURRENTLY ONLY DISPATCHES FIRST EVENT IN CORRECT EVENT CLASS)
 */
 
 
@@ -84,12 +84,14 @@ namespace Breaker {
 			m_Length = index;
 		}
 		template<typename T>
-		bool Dispatch(EventFn<T> func) {
-			if (m_Buffer[0]->GetEventType() == T::GetStaticType()) {
-				m_Buffer[0]->m_Handled = func(*(T*)m_Buffer[0]);
-				return true;
+		int Dispatch(EventFn<T> func) {
+			for (int i = 0; i < BuffLen || m_Buffer[i] == nullptr; i++) {
+				if (m_Buffer[i]->GetEventType() == T::GetStaticType()) {
+					m_Buffer[i]->m_Handled = func(*(T*)m_Buffer[i]);
+					return i;
+				}
 			}
-			return false;
+			return -1;
 		}
 	private:
 		Event* m_Buffer[BuffLen];
